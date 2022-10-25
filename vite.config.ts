@@ -30,4 +30,7 @@ module.exports = defineConfig({
       fileName: (format) => fileName[format],
     },
   },
+  define: {
+    'process.env': {ZOID_FRAME_ONLY: true}
+  }
 });
