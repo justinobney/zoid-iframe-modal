@@ -43,4 +43,10 @@
   bottom: 0;
   background: transparent;
   display: flex;
+  padding: 2rem;
+}
+
+.modal__content > div {
+  margin: 0 auto;
+  box-shadow: #00000078 0px 0px 6px 2px;
 }

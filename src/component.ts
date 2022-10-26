@@ -14,10 +14,10 @@ export default zoid.create({
   domain: HOST_DOMAIN,
   dimensions: {
     width: "500px",
-    height: "700px",
+    height: "100%",
   },
   autoResize: {
     width: false,
-    height: false,
+    height: true,
   },
 });
